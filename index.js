@@ -17,9 +17,9 @@ client.on('message', message => {
     const args = message.content.slice(prefix.length).trim().split(' '); 
     const command = args.shift().toLowerCase(); 
     
-    if (args[0].length == 6 &&  args[0].toUpperCase() === args[0] && `${message.channel}` == "<#759787196126330881>" && command ==="au") // replace "<#759787196126330881>" by the corresponding channel
+    if (args[0].length == 6 &&  args[0].toUpperCase() === args[0] && command ==="au") 
     {
-        message.channel.send("Code Among Us reconnu, attribution de la room au pseudo");
+        message.channel.send("Among Us Code recognized, changing nickname...");
         let codeAU = args[0];
         message.member.setNickname(`${message.author.username} ${codeAU}`, "nick command executed");
     }
