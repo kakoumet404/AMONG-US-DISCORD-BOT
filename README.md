@@ -23,6 +23,7 @@ INSTALLATION :
 1.3 Go to https://discordapi.com/permissions.html and put your client ID, check all the boxes and then click on the link at the bottom od the page in order to add your bot to your server.
 
 If you want to use the bot in only one channel you need to replace in <index.js> the line 20 by what is in the <>:
+
 <    if (args[0].length == 6 &&  args[0].toUpperCase() === args[0] && `${message.channel}` == "<#759787196126330881>" && command ==="au") >
 
 replace <#759787196126330881> by the channel you want to use the bot on.
