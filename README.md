@@ -1,6 +1,14 @@
 # AMONG-US-DISCORD-BOT
 Discord BOT that add the room code to the end of the username when typed in a channel.
 
+____________________________________________________________________________
+
+
+Won't work if you are the owner of the server
+
+____________________________________________________________________________
+
+
 
 HOW TO INSTALL IT ?
 
