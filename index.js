@@ -23,6 +23,6 @@ client.on('message', message => {
         let codeAU = args[0];
         message.member.setNickname(`${message.author.username} ${codeAU}`, "nick command executed");
     }
-);
+});
 
 client.login(token);
